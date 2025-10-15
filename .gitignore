@@ -1,0 +1,13 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node / tooling (future-proof)
+node_modules/
+dist/
+*.log
+
+# misc
+*.zip

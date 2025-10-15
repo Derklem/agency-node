@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Agency Node — Clean URLs + Safer Outbound",
+  "version": "0.2.0",
+  "description": "Strips tracking params, hardens external links, and cleans the current URL.",
+  "permissions": [],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Agency Node"
+  }
+}

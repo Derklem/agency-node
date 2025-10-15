@@ -1,0 +1,12 @@
+agency-node
+  README.md
+  LICENSE
+  userscripts
+    agency-clean-urls.user.js
+  guides
+    dns-over-https.md
+    windows-url-privacy.md
+  extension-skeleton
+    manifest.json
+    content.js
+  .gitignore
